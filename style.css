@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    background-color: rgb(48, 48, 188);
+}
+.first{
+    width: 50%;
+ display: flex;
+}
+.a{
+    width: 20%;
+}
+.b{
+    width: 80%;
+    height: 28rem;
+    color: rgb(17, 17, 168);
+    background-color: white;
+    margin-top: 9rem;
+    text-align: center;
+}
+button{
+    margin-top: 0.6rem;
+    padding: 0.5rem 1.7rem;
+    color:rgb(67, 67, 181) ;
+    box-shadow: 10px 10px 5px rgb(67, 67, 181);
+}
+p{
+    font-size: 1.5rem;
+}
+h2{
+    margin-top: 4rem;
+    font-size: 36px;
+}
+
+input{
+    margin-top: 0.5rem;
+    color: rgb(67, 67, 181);
+    border-radius: 4px;
+    border: 2px solid rgb(67, 67, 181);
+    padding: 0.5rem 1.8rem;
+}
+input:hover{
+    box-shadow: 8px 8px 7px rgb(140, 140, 231);
+}
+.second{
+    width: 50%;
+    text-align: center;
+   
+}
+h1{
+   margin-top: 20rem;
+   font-size: 48px;
+}
+span{
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .body{
+       flex-direction: column;
+      
+    
+    }
+    .first{
+        width: 100%;
+        display: block;
+
+    }
+    .second{
+        width: 100%;
+      
+    }
+    h1{
+        margin-top: 2rem;
+        font-size: 30px;
+     }
+     h2{
+        padding-top: 0rem;
+        margin-top: 0;
+        font-size: 28px;
+     }
+     .b{
+        width: 90%;
+        height: 20rem;
+        margin-top: 0rem;
+       margin-left: 1.5rem;
+      
+    }
+    button{
+        padding: 0.4rem 1.0rem;
+       
+    }
+    
+}
